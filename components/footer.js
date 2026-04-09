@@ -33,7 +33,7 @@ export default function Footer() {
         <div className="footer-block reveal">
           <h3>Contact</h3>
           <ul>
-            <li>Bengaluru, India</li>
+            <li>Doddaballapura, India</li>
             <li>
               <a href={whatsappUrl} target="_blank" rel="noreferrer">
                 WhatsApp

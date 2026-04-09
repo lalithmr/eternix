@@ -7,7 +7,7 @@ export default function HeroSection() {
         <div className="hero-logo">
           <CrownLogo />
         </div>
-        <p className="eyebrow">Bengaluru Chess Training Platform</p>
+        <p className="eyebrow">Doddaballapura's Chess Training Platform</p>
         <h1>ETERNIX</h1>
         <p className="hero-subtitle">The Game Never Ends.</p>
         <p className="hero-copy">
