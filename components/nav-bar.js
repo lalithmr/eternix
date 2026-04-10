@@ -24,9 +24,6 @@ export default function NavBar({ theme, toggleTheme }) {
             <a className="nav-link" href="#programs" onClick={() => setIsMenuOpen(false)}>
               Programs
             </a>
-            <a className="nav-link" href="#puzzle" onClick={() => setIsMenuOpen(false)}>
-              Puzzle
-            </a>
           </div>
           <button
             className="theme-toggle"

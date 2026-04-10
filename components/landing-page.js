@@ -5,9 +5,9 @@ import NavBar from "./nav-bar";
 import HeroSection from "./hero-section";
 import AboutSection from "./about-section";
 import ProgramsSection from "./programs-section";
-import PuzzleSection from "./puzzle-section";
 import CtaSection from "./cta-section";
 import Footer from "./footer";
+import CoachSection from "./coach-section";
 
 export default function LandingPage() {
   const [theme, setTheme] = useState("dark");
@@ -111,7 +111,7 @@ export default function LandingPage() {
       <main>
         <AboutSection />
         <ProgramsSection />
-        <PuzzleSection />
+        <CoachSection />
         <CtaSection />
       </main>
       <Footer />
