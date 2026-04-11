@@ -5,8 +5,8 @@ const coaches = [
         name: "Lalith Kumar",
         title: "FIDE Rated Player",
         experience: "10+ Years",
-        rating: "4.9",
-        students: "200+",
+        rating: "2 x All India University South Zone",
+        students: "3 x State Championship",
         image: "/coach1.jpg",
         profileLink: "https://ratings.fide.com/profile/25690280"
     },
@@ -44,7 +44,7 @@ export default function CoachSection() {
 
                             <div className="stats">
                                 <span>⭐ {coach.rating}</span>
-                                <span>👨‍🎓 {coach.students}</span>
+                                <span>⭐ {coach.students}</span>
                             </div>
 
                         </a>
