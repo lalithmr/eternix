@@ -11,6 +11,12 @@ import CoachSection from "./coach-section";
 
 export default function LandingPage() {
   const [theme, setTheme] = useState("dark");
+  const [showSeatAlert, setShowSeatAlert] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowSeatAlert(true), 1500);
+    return () => clearTimeout(timer);
+  }, []);
 
   useEffect(() => {
     const savedTheme = localStorage.getItem("eternix_theme");
@@ -106,6 +112,21 @@ export default function LandingPage() {
 
   return (
     <div className="site-shell" data-theme={theme}>
+      {showSeatAlert && (
+        <div className="floating-alert slide-in-top">
+          <div className="alert-content">
+            <span className="alert-icon">🔥</span>
+            <span className="alert-message">Hurry! Only a few seats left.</span>
+          </div>
+          <button
+            className="close-alert-btn"
+            onClick={() => setShowSeatAlert(false)}
+            aria-label="Close alert"
+          >
+            &times;
+          </button>
+        </div>
+      )}
       <NavBar theme={theme} toggleTheme={toggleTheme} />
       <HeroSection />
       <main>
