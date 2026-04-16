@@ -24,9 +24,6 @@ export default function Footer() {
             <li>
               <a href="#programs">Programs</a>
             </li>
-            <li>
-              <a href="#puzzle">Puzzle</a>
-            </li>
           </ul>
         </div>
 

@@ -16,7 +16,7 @@ export default function HeroSection() {
 
         <div className="hero-actions">
           <a className="button" href="#cta">
-            5-Day Intensive Program – ₹500
+            5-Day Intensive Program – Free
           </a>
         </div>
       </div>
